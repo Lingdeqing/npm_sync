@@ -1,0 +1,23 @@
+{
+  "name": "npm_sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lingdeqing/npm_sync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lingdeqing/npm_sync/issues"
+  },
+  "homepage": "https://github.com/Lingdeqing/npm_sync#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "request": "^2.85.0"
+  }
+}
