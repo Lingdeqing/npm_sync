@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Lingdeqing/npm_sync#readme",
   "dependencies": {
     "async": "^2.6.0",
+    "lodash": "^4.17.5",
+    "log": "^1.4.0",
     "request": "^2.85.0"
   }
 }
