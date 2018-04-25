@@ -3,5 +3,6 @@
   "devdependencies":false,
   "remoteregistry":"https://registry.npmjs.org/",
   "localregistry":"http://yaolin:123456@35.201.153.103:5984/registry/",
-  "tarballregistry":"http://35.201.153.103:5984/tarball/"
+  "tarballregistry":"http://yaolin:123456@35.201.153.103:5984/tarball/",
+  "tempdir":"temp"
 }

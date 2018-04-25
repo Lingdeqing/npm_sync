@@ -13,6 +13,7 @@ program
     .option('-r, --remoteregistry', '远程库地址')
     .option('-l, --localregistry', '本地库地址')
     .option('-t, --tarballregistry', 'tarball库地址')
+    .option('-T, --tempdir', '临时存放tarball目录')
     .parse(process.argv);
 
 if (program.args.length < 1) {
@@ -29,7 +30,7 @@ program.args.forEach(function (pack) {
     pack = pack.split('@')
     var id = pack[0]
     var version = pack[1] || null
-    sync(program.remoteregistry, program.localregistry, program.tarballregistry, id, version, {
+    sync(program.remoteregistry, program.localregistry, program.tarballregistry, program.tempdir, id, version, {
         syncDependencies: program.dependencies,
         syncDevDependencies: program.devdependencies
     })
