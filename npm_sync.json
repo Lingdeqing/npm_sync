@@ -2,7 +2,7 @@
   "dependencies":true,
   "devdependencies":false,
   "remoteregistry":"https://registry.npmjs.org/",
-  "localregistry":"http://yaolin:123456@35.201.153.103:5984/registry/",
-  "tarballregistry":"http://yaolin:123456@35.201.153.103:5984/tarball/",
+  "localregistry":"http://yaolin:123456@192.168.1.107:5984/registry/",
+  "tarballregistry":"http://yaolin:123456@192.168.1.107:5984/tarball/",
   "tempdir":"temp"
 }
